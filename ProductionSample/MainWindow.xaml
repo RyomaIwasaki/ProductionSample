@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProductionSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductionSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="320,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,91,0,0" TextWrapping="Wrap" Text="学籍番号：" FontSize="15" VerticalAlignment="Top" RenderTransformOrigin="0.51,-0.312" Width="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,180,0,0" TextWrapping="Wrap" Text="パスワード：" FontSize="15" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.75,0.5"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="320,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" FontSize="15" RenderTransformOrigin="0.481,4.043"/>
+        <Button Content="ログイン" HorizontalAlignment="Left" Margin="335,265,0,0" VerticalAlignment="Top" Width="175" Height="35" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="370,39,0,0" TextWrapping="Wrap" Text="ログイン画面" FontSize="20" VerticalAlignment="Top" Width="104"/>
+    </Grid>
+</Window>
